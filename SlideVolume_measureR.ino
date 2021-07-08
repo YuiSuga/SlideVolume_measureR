@@ -8,7 +8,8 @@ void setup() {
   while(!Serial);
 }
 
-int vals[20],average,val,ind=0;
+int vals[20],ind=0;
+float average,val;
 void loop() {
   //Averaging filter * 20
   vals[ind=(ind+1)%20]=analogRead(ADC_POTENTIO);
