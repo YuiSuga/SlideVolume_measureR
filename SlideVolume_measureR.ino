@@ -27,7 +27,6 @@ void loop() {
   for(int i=0;i<20;i++)
     average+=vals[i];
   average/=20;
-  Serial.println(average);
   val=average;
 
   //Press return key in serial monitor to record val
